@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Og-Y5-3gS" customClass="ResolvingPowerView">
+            <rect key="frame" x="0.0" y="0.0" width="477" height="135"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvT-1Y-vel">
+                    <rect key="frame" x="239" y="20" width="114" height="95"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <state key="normal" title="超清">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickAuperClearBtn:" destination="7Og-Y5-3gS" eventType="touchUpInside" id="EnE-9j-40W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5N-4e-fon">
+                    <rect key="frame" x="353" y="20" width="114" height="95"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <state key="normal" title="蓝光">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickBlueLightBtn:" destination="7Og-Y5-3gS" eventType="touchUpInside" id="v95-pH-d8J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8c-vQ-At5">
+                    <rect key="frame" x="10" y="20" width="114.5" height="95"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <state key="normal" title="标清">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickSdBtn:" destination="7Og-Y5-3gS" eventType="touchUpInside" id="fP7-0z-ilp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urt-aW-aLh">
+                    <rect key="frame" x="124" y="20" width="115" height="95"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <state key="normal" title="高清">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickHdBtn:" destination="7Og-Y5-3gS" eventType="touchUpInside" id="Da1-Wb-ZpD"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="X5N-4e-fon" firstAttribute="top" secondItem="7Og-Y5-3gS" secondAttribute="top" constant="20" id="6jT-7h-i9M"/>
+                <constraint firstItem="uvT-1Y-vel" firstAttribute="top" secondItem="7Og-Y5-3gS" secondAttribute="top" constant="20" id="86I-OF-RDk"/>
+                <constraint firstItem="urt-aW-aLh" firstAttribute="top" secondItem="7Og-Y5-3gS" secondAttribute="top" constant="20" id="9GU-xL-mHb"/>
+                <constraint firstAttribute="trailing" secondItem="X5N-4e-fon" secondAttribute="trailing" constant="10" id="H2b-O3-5cs"/>
+                <constraint firstItem="urt-aW-aLh" firstAttribute="leading" secondItem="u8c-vQ-At5" secondAttribute="trailing" id="KKK-3I-yNx"/>
+                <constraint firstItem="urt-aW-aLh" firstAttribute="width" secondItem="u8c-vQ-At5" secondAttribute="width" id="LI9-mm-k9f"/>
+                <constraint firstItem="X5N-4e-fon" firstAttribute="leading" secondItem="uvT-1Y-vel" secondAttribute="trailing" id="OGR-o9-uDC"/>
+                <constraint firstAttribute="bottom" secondItem="u8c-vQ-At5" secondAttribute="bottom" constant="20" id="RaP-yB-6hw"/>
+                <constraint firstAttribute="bottom" secondItem="urt-aW-aLh" secondAttribute="bottom" constant="20" id="Ucd-Ae-Krq"/>
+                <constraint firstItem="uvT-1Y-vel" firstAttribute="leading" secondItem="urt-aW-aLh" secondAttribute="trailing" id="WKh-rn-DdY"/>
+                <constraint firstItem="u8c-vQ-At5" firstAttribute="top" secondItem="7Og-Y5-3gS" secondAttribute="top" constant="20" id="ZuT-3i-sgZ"/>
+                <constraint firstItem="u8c-vQ-At5" firstAttribute="leading" secondItem="7Og-Y5-3gS" secondAttribute="leading" constant="10" id="rYL-Ls-ZEe"/>
+                <constraint firstItem="X5N-4e-fon" firstAttribute="width" secondItem="u8c-vQ-At5" secondAttribute="width" id="skV-me-ift"/>
+                <constraint firstAttribute="bottom" secondItem="X5N-4e-fon" secondAttribute="bottom" constant="20" id="uxK-0S-nfH"/>
+                <constraint firstItem="uvT-1Y-vel" firstAttribute="width" secondItem="u8c-vQ-At5" secondAttribute="width" id="yw4-MA-Muc"/>
+                <constraint firstAttribute="bottom" secondItem="uvT-1Y-vel" secondAttribute="bottom" constant="20" id="ywS-sN-gXX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="auperClearBtn" destination="uvT-1Y-vel" id="p1b-tD-ZKf"/>
+                <outlet property="blueLightBtn" destination="X5N-4e-fon" id="lFV-RM-UUr"/>
+                <outlet property="hdBtn" destination="urt-aW-aLh" id="Qh3-tu-xo3"/>
+                <outlet property="sdBtn" destination="u8c-vQ-At5" id="bZs-M1-qpk"/>
+            </connections>
+        </view>
+    </objects>
+</document>

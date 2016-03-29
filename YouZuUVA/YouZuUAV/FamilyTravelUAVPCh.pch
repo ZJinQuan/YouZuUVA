@@ -1,0 +1,25 @@
+//
+//  FamilyTravelUAVPCh.pch
+//  FamilyTravelUAV
+//
+//  Created by QUAN on 16/2/29.
+//  Copyright © 2016年 QUAN. All rights reserved.
+//
+
+#ifndef FamilyTravelUAVPCh_pch
+#define FamilyTravelUAVPCh_pch
+
+#define RGB(R, G, B)    [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
+
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define kclickBack @"clickBack"
+#define CurrentDevicec @"currentDevicec"
+
+#import "Masonry.h"
+#import "UIView+Extension.h"
+#import "AppDelegate.h"
+
+
+#endif /* FamilyTravelUAVPCh_pch */

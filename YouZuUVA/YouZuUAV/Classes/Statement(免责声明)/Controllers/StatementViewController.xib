@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StatementViewController">
+            <connections>
+                <outlet property="agreeButton" destination="tvG-NR-ObF" id="oFJ-d1-oJi"/>
+                <outlet property="enter" destination="ixg-id-oFI" id="Rcp-Ju-tRh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mianzesmbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tdh-L0-VZx">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="免责声明" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cpr-i4-Wki">
+                    <rect key="frame" x="234" y="10" width="99" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="99" id="RV7-Xs-8Z5"/>
+                        <constraint firstAttribute="height" constant="38" id="rn2-Ev-YAt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixg-id-oFI">
+                    <rect key="frame" x="205" y="269" width="157" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="ift-we-LXQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="进入游族  &gt;&gt;">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="enter:" destination="-1" eventType="touchUpInside" id="3xE-qX-J3l"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54R-BI-69l">
+                    <rect key="frame" x="50" y="48" width="468" height="181"/>
+                    <string key="text">版权所有(C) 游族一代相机
+
+此APP不提供任何形式的明示或默认的关于内容的正确性, 及时性, 有效性, 稳定性, 可用性等方面的保证或承诺, 请用户对相关内容自行核实后仅作参考. 此APP对用户由于使用或不能使用所引起的一切损害不承担任何法律责任.
+
+游族无人机用户均需仔细阅读本许可协议, 在理解, 同意, 并遵守本许可协议的全部条件和条款后, 方可开始使用游族无人机.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvG-NR-ObF">
+                    <rect key="frame" x="50" y="231" width="205" height="30.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="205" id="BqK-FE-xqE"/>
+                        <constraint firstAttribute="height" constant="30.5" id="yz0-Tf-ID5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="我已全部阅读并同意以上条款" image="duihao_unselect.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="duihao_select.png"/>
+                    <connections>
+                        <action selector="clickAgreeButton:" destination="-1" eventType="touchUpInside" id="dU1-2w-mO7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Cpr-i4-Wki" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="1Kk-uR-BrG"/>
+                <constraint firstItem="Tdh-L0-VZx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EpN-pP-525"/>
+                <constraint firstItem="ixg-id-oFI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="205" id="GRA-Lf-nwv"/>
+                <constraint firstAttribute="bottom" secondItem="Tdh-L0-VZx" secondAttribute="bottom" id="J90-1k-uWJ"/>
+                <constraint firstItem="ixg-id-oFI" firstAttribute="top" secondItem="54R-BI-69l" secondAttribute="bottom" constant="40" id="K3q-F3-GMd"/>
+                <constraint firstItem="54R-BI-69l" firstAttribute="top" secondItem="Cpr-i4-Wki" secondAttribute="bottom" id="M4z-L0-Oo0"/>
+                <constraint firstAttribute="bottom" secondItem="ixg-id-oFI" secondAttribute="bottom" constant="6" id="MlF-Gs-uw0"/>
+                <constraint firstItem="tvG-NR-ObF" firstAttribute="top" secondItem="54R-BI-69l" secondAttribute="bottom" constant="2" id="OLk-eP-OBT"/>
+                <constraint firstItem="Tdh-L0-VZx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Qil-od-Rbm"/>
+                <constraint firstItem="54R-BI-69l" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="VMP-yQ-02w"/>
+                <constraint firstItem="Cpr-i4-Wki" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="b6N-mC-ICf"/>
+                <constraint firstAttribute="trailing" secondItem="Tdh-L0-VZx" secondAttribute="trailing" id="d6R-GO-Eae"/>
+                <constraint firstItem="tvG-NR-ObF" firstAttribute="leading" secondItem="54R-BI-69l" secondAttribute="leading" id="fFX-ow-sN0"/>
+                <constraint firstAttribute="trailing" secondItem="ixg-id-oFI" secondAttribute="trailing" constant="206" id="klq-Jj-Qgc"/>
+                <constraint firstAttribute="trailing" secondItem="54R-BI-69l" secondAttribute="trailing" constant="50" id="u9m-VQ-wTj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="278" y="363"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="duihao_select.png" width="30" height="30"/>
+        <image name="duihao_unselect.png" width="30" height="30"/>
+        <image name="mianzesmbg.png" width="1920" height="1080"/>
+    </resources>
+</document>

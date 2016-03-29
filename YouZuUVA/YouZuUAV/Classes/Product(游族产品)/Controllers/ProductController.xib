@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a45-Vx-qld">
+                    <rect key="frame" x="0.0" y="0.0" width="667" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="wGO-WM-96i"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="游族产品" id="SAI-Jj-w9S">
+                            <barButtonItem key="leftBarButtonItem" image="nav_bac.png" id="HW7-Sy-dvf">
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="backItem:" destination="-1" id="lKn-6m-I7l"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="a45-Vx-qld" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="b8U-in-URd"/>
+                <constraint firstAttribute="trailing" secondItem="a45-Vx-qld" secondAttribute="trailing" id="fVZ-V4-okt"/>
+                <constraint firstItem="a45-Vx-qld" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xJt-BW-e8W"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nav_bac.png" width="17" height="17"/>
+    </resources>
+</document>
