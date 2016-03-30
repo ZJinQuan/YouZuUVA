@@ -26,7 +26,6 @@
 		143484831C8E6976007E07F7 /* StatementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143483B01C8E6975007E07F7 /* StatementViewController.m */; };
 		143484841C8E6976007E07F7 /* StatementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143483B11C8E6975007E07F7 /* StatementViewController.xib */; };
 		143484851C8E6976007E07F7 /* TakePictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143483B71C8E6975007E07F7 /* TakePictureController.m */; };
-		143484861C8E6976007E07F7 /* TakePictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143483B81C8E6975007E07F7 /* TakePictureController.xib */; };
 		143484871C8E6976007E07F7 /* AirplaneModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 143483BC1C8E6976007E07F7 /* AirplaneModeView.m */; };
 		143484881C8E6976007E07F7 /* AirplaneModeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143483BD1C8E6976007E07F7 /* AirplaneModeView.xib */; };
 		143484891C8E6976007E07F7 /* CalibrationSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 143483BF1C8E6976007E07F7 /* CalibrationSettingView.m */; };
@@ -167,6 +166,7 @@
 		143485131C8E6976007E07F7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 143484731C8E6976007E07F7 /* ViewController+MASAdditions.m */; };
 		143485161C8E70CC007E07F7 /* EFCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 143485151C8E70CC007E07F7 /* EFCircularSlider.m */; };
 		14D8D2321CAA67D900E04906 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8D2311CAA67D900E04906 /* MBProgressHUD.m */; };
+		14E9E5201CABB74100D68273 /* TakePictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E9E51F1CABB74100D68273 /* TakePictureController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,7 +202,6 @@
 		143483B11C8E6975007E07F7 /* StatementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatementViewController.xib; sourceTree = "<group>"; };
 		143483B61C8E6975007E07F7 /* TakePictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureController.h; sourceTree = "<group>"; };
 		143483B71C8E6975007E07F7 /* TakePictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureController.m; sourceTree = "<group>"; };
-		143483B81C8E6975007E07F7 /* TakePictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePictureController.xib; sourceTree = "<group>"; };
 		143483BB1C8E6976007E07F7 /* AirplaneModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirplaneModeView.h; sourceTree = "<group>"; };
 		143483BC1C8E6976007E07F7 /* AirplaneModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirplaneModeView.m; sourceTree = "<group>"; };
 		143483BD1C8E6976007E07F7 /* AirplaneModeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirplaneModeView.xib; sourceTree = "<group>"; };
@@ -384,6 +383,7 @@
 		143485151C8E70CC007E07F7 /* EFCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFCircularSlider.m; sourceTree = "<group>"; };
 		14D8D2301CAA67D900E04906 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		14D8D2311CAA67D900E04906 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		14E9E51F1CABB74100D68273 /* TakePictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePictureController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -645,7 +645,7 @@
 			children = (
 				143483B61C8E6975007E07F7 /* TakePictureController.h */,
 				143483B71C8E6975007E07F7 /* TakePictureController.m */,
-				143483B81C8E6975007E07F7 /* TakePictureController.xib */,
+				14E9E51F1CABB74100D68273 /* TakePictureController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1018,7 +1018,6 @@
 				1434849E1C8E6976007E07F7 /* VideoModeView.xib in Resources */,
 				143484FD1C8E6976007E07F7 /* 组 18.png in Resources */,
 				143484761C8E6976007E07F7 /* LaunchScreen.storyboard in Resources */,
-				143484861C8E6976007E07F7 /* TakePictureController.xib in Resources */,
 				143484FA1C8E6976007E07F7 /* 组 15.png in Resources */,
 				143484C81C8E6976007E07F7 /* left_slider@2x.png in Resources */,
 				143484E41C8E6976007E07F7 /* tab_del@2x.png in Resources */,
@@ -1034,6 +1033,7 @@
 				143484F61C8E6976007E07F7 /* mianzesmbg.png in Resources */,
 				143484BF1C8E6976007E07F7 /* left_but_cam@2x.png in Resources */,
 				143484BB1C8E6976007E07F7 /* home_timing@2x.png in Resources */,
+				14E9E5201CABB74100D68273 /* TakePictureController.xib in Resources */,
 				143484781C8E6976007E07F7 /* HomeViewController.xib in Resources */,
 				143484AC1C8E6976007E07F7 /* hoem_renew@2x.png in Resources */,
 				143484961C8E6976007E07F7 /* SetTheFlightView.xib in Resources */,
