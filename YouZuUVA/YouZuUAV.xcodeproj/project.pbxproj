@@ -1215,7 +1215,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_INPUT_FILETYPE = automatic;
-				GCC_PREFIX_HEADER = /Users/QUAN/Desktop/YouZuUVA1/YouZuUAV/FamilyTravelUAVPCh.pch;
+				GCC_PREFIX_HEADER = /Users/QUAN/Desktop/Github/YouZuUVA/YouZuUVA/YouZuUAV/FamilyTravelUAVPCh.pch;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/YouZuUAV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -1239,7 +1239,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_INPUT_FILETYPE = automatic;
-				GCC_PREFIX_HEADER = /Users/QUAN/Desktop/YouZuUVA1/YouZuUAV/FamilyTravelUAVPCh.pch;
+				GCC_PREFIX_HEADER = /Users/QUAN/Desktop/Github/YouZuUVA/YouZuUVA/YouZuUAV/FamilyTravelUAVPCh.pch;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/YouZuUAV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
