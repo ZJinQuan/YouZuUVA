@@ -179,7 +179,6 @@
     
 }
 
-
 #pragma mark 设置
 - (IBAction)clickSetUpButton:(id)sender {
     
